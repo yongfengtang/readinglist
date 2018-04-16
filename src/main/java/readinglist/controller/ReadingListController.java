@@ -26,6 +26,7 @@ public class ReadingListController {
             model.addAttribute("books", readingList);
         }
         System.out.println("访问网页1");
+        System.out.println("springboot web");
         return "/readingList";
     }
 
