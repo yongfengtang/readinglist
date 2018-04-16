@@ -29,6 +29,7 @@ public class ReadingListController {
         return "/readingList";
     }
 
+
     @RequestMapping(value = "/addToReadingList/{reader}", method = RequestMethod.GET)
     public String addToReadingList(@PathVariable("reader") String reader, Book book) {
         System.out.println("访问网页2");
